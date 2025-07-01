@@ -1,0 +1,10 @@
+# robots.txt for https://www.moviehai.icu/
+
+# Block all crawlers from accessing any admin or private directories
+User-agent: *
+
+# Allow all other parts of the site
+Allow: /
+
+# Optional sitemap declaration
+Sitemap: https://p4.moviehai.icu/sitemap.xml
