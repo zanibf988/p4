@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>About Us - Your Movie Download Platform</title>
+<meta content="Learn about our mission to provide high-quality movie downloads in multiple languages and resolutions. Discover our team and values." name="description"/>
+<meta content="about us, movie download platform, team, mission, values, entertainment" name="keywords"/>
+<meta content="index, follow" name="robots"/>
+<link href="/img/favicon.ico" rel="icon" type="image/x-icon"/>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet"/>
+<link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/css/lightbox.min.css" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css" rel="stylesheet"/>
+<link href="/css/p-style.css" rel="stylesheet"/>
+<style>
+.about-section {
+    line-height: 1.7;
+    color: #e0e0e0;
+}
+
+.styled-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.styled-list li {
+    padding-left: 25px;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.styled-list li:before {
+    content: "\f00c";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    position: absolute;
+    left: 0;
+    color: var(--secondary-color);
+}
+
+.value-card {
+    background: rgba(40, 40, 55, 0.5);
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    border-bottom: 3px solid transparent;
+}
+
+.value-card:hover {
+    transform: translateY(-5px);
+    border-bottom-color: var(--secondary-color);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.cta-section {
+    background: rgba(0, 97, 255, 0.1);
+    border-radius: 15px;
+    border: 1px solid rgba(0, 180, 255, 0.2);
+}
+
+.btn-primary {
+    background: var(--gradient-primary);
+    border: none;
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+    background: var(--gradient-secondary);
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0, 180, 255, 0.4);
+}
+</style>
+</head>
+<body>
+<header id="dynamic-header"></header>
+<div class="message-container" id="dynamic-message"></div>
+
+<div class="main-pd">
+    <div class="content-section">
+        <h1 class="section-title">About Our Platform</h1>
+        
+        <div class="about-section">
+            <div class="mb-5">
+                <h2 class="mb-3">Our Mission</h2>
+                <p>We are dedicated to providing movie enthusiasts with high-quality downloads in multiple languages and resolutions. Our platform bridges the gap between international cinema and regional audiences by offering dubbed versions with accurate subtitles.</p>
+                <p>Since our founding, we've grown to become a trusted source for Hollywood movies in Hindi-English and other language combinations, serving thousands of satisfied users worldwide.</p>
+            </div>
+            
+            <div class="mb-5">
+                <h2 class="mb-3">Our Team</h2>
+                <p>Behind the scenes, we have a passionate team of movie lovers, tech experts, and language specialists working tirelessly to:</p>
+                <ul class="styled-list">
+                    <li>Curate the best quality movie files</li>
+                    <li>Ensure accurate translations and subtitles</li>
+                    <li>Maintain fast and reliable download links</li>
+                    <li>Provide excellent user support</li>
+                </ul>
+            </div>
+            
+            <div class="values-section mb-5">
+                <h2 class="mb-4 text-center">Our Core Values</h2>
+                <div class="row">
+                    <div class="col-md-4 mb-4">
+                        <div class="value-card p-4 h-100">
+                            <i class="fas fa-film fa-3x mb-3 text-primary"></i>
+                            <h3>Quality Content</h3>
+                            <p>We prioritize high-resolution files with excellent audio and video quality to enhance your viewing experience.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="value-card p-4 h-100">
+                            <i class="fas fa-globe fa-3x mb-3 text-primary"></i>
+                            <h3>Accessibility</h3>
+                            <p>By providing multiple language options and resolutions, we make international cinema accessible to all.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="value-card p-4 h-100">
+                            <i class="fas fa-shield-alt fa-3x mb-3 text-primary"></i>
+                            <h3>Safe Downloads</h3>
+                            <p>We verify all files to ensure they're free from malware and provide secure download links.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="cta-section text-center py-5">
+                <h2 class="mb-4">Join Our Growing Community</h2>
+                <p class="lead mb-4">Become part of thousands of movie lovers who trust us for their entertainment needs.</p>
+                <a href="/" class="btn btn-primary btn-lg px-4 py-2">
+                    <i class="fas fa-film me-2"></i>Explore Our Collection
+                </a>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Quick Links Section -->
+    <div class="content-section quick-links">
+        <h2 class="section-title">Explore More</h2>
+        <div class="links-list">
+            <div class="link-item">
+                <a href="/pages/faq.html">Frequently Asked Questions</a>
+            </div>
+            <div class="link-item">
+                <a href="/pages/dmca.html">DMCA Policy</a>
+            </div>
+            <div class="link-item">
+                <a href="/pages/policy.html">Privacy Policy</a>
+            </div>
+            <div class="link-item">
+                <a href="/pages/terms.html">Terms of Service</a>
+            </div>
+            <div class="link-item">
+                <a href="/">Home Page</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="back-to-top" id="backToTop">
+<i class="fas fa-arrow-up"></i>
+</div>
+<footer id="dynamic-footer"></footer>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/js/lightbox.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+<script async="" src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.3.2/lazysizes.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+<script src="/js/p-script.js"></script>
+<script src="/js/analytics.js"></script>
+</body>
+</html>
