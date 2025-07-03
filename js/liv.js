@@ -1,6 +1,6 @@
 function replaceShortcodes() {
     const shortcodes = {
-        sgt:  { name: 'GDTOT', regex: /\[fd id='(.*?)'\]/g,  url: 'https://red.moviehai.icu/file/' },
+        sgt:  { name: 'GDTOT', regex: /\[sgt id='(.*?)'\]/g,  url: 'https://red.moviehai.icu/file/' },
         egt: { name: 'GDTOT', regex: /\[egt id='(.*?)'\]/g, url: 'https://new20.gdtot.dad/file/' },
     };
 
