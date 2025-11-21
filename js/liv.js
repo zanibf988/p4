@@ -1,6 +1,6 @@
 function replaceShortcodes() {
     const shortcodes = {
-             sgt: { name: 'GDTOT', regex: /\[sgt id='(.*?)'\]/g, url: 'https://red.moviehai.icu/file/'},
+             sgt: { name: 'DOWNLOAD', regex: /\[sgt id='(.*?)'\]/g, url: 'https://red.moviehai.icu/file/'},
         gdf: { name: 'GDFLIX', regex: /\[gdf id='(.*?)'\]/g, url: 'https://new9.gdflix.net/file/'},
         fpd: { name: 'FILEPRESS', regex: /\[fpd id='(.*?)'\]/g, url: 'https://new1.filepress.cloud/file/'},
         apd: { name: 'APPDRIVE', regex: /\[apd id='(.*?)'\]/g, url: 'https://appdrive.life/file/'}
@@ -25,3 +25,4 @@ function replaceShortcodes() {
 }
 
 document.addEventListener('DOMContentLoaded', replaceShortcodes);
+
